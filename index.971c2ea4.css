@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, a, li, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.page__body {
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.page__section {
+  margin: 40px 0;
+}
+
+.page__section:last-child {
+  margin-bottom: 0;
+}
+
+.page__section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.page__footer {
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  padding: 40px 0;
+}
+
+.header {
+  color: #fff;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.header__title {
+  text-align: center;
+  font-size: 36px;
+}
+
+.menu__list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.menu__item {
+  display: inline;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 20px;
+  display: inline;
+}
+
+.menu__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 40px;
+}
+
+.hero__button {
+  cursor: pointer;
+  color: #fff;
+  background-color: #f05a28;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: filter .3s;
+  display: inline-block;
+}
+
+.hero__button:hover {
+  filter: brightness(90%);
+}
+
+.container {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+.card__image {
+  aspect-ratio: 3 / 2;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.subscription {
+  text-align: center;
+  color: #fff;
+  background-color: #f05a28;
+  padding: 60px 0;
+}
+
+.subscription__text {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.subscription__form-input {
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 66%;
+  padding: 10px;
+}
+
+.subscription__form-submit {
+  color: #fff;
+  cursor: pointer;
+  background-color: #333;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  height: 100%;
+  margin-left: -5px;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.971c2ea4.css.map */
