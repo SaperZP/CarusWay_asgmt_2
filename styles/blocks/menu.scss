@@ -1,0 +1,24 @@
+.menu {
+  &__list {
+    list-style-type: none;
+  }
+
+  &__list {
+    text-align: center;
+  }
+
+  &__item {
+    display: inline;
+  }
+
+  &__item:not(:last-child) {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+}

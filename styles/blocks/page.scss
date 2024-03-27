@@ -1,0 +1,31 @@
+.page {
+  font-family: "Arial", sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+
+  &__body {
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+
+  &__section {
+    margin: 40px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  &__footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+  }
+}

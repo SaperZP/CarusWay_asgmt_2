@@ -1,0 +1,31 @@
+.subscription {
+  text-align: center;
+
+  padding: 60px 0;
+  color: #fff;
+  background-color: #f05a28;
+
+  &__text {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__form-input {
+    width: 66%;
+    padding: 10px;
+    border: none;
+    border-radius:5px 0 0 5px;
+    outline: none;
+  }
+
+  &__form-submit {
+    height: 100%;
+    padding: 10px;
+    margin-left: -5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius:0 5px 5px 0;
+    cursor: pointer;
+  }
+}
